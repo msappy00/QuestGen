@@ -1,6 +1,7 @@
+import nltk
 from pprint import pprint
 from Questgen import main
-# nltk.download('stopwords')
+nltk.download('stopwords')
 
 payload = {
             "input_text": """ \
